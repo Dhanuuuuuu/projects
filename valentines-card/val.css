@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cookie-regular {
+    font-family: "Cookie", serif;
+    font-size: 2.70rem;
+    line-height: 80px;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .source-serif-4-regular {
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+
+.cover{
+    height: 67vh;
+    width: 33vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffacc5;
+    margin-top: 245px;
+    margin-left: 519px;
+    border-radius: 10px;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.card{
+    text-align: center;
+    font-size: large;
+    position:absolute;
+    height: 63vh;
+    width: 31vw;
+    background-color: #ffccd5;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0;
+    z-index: 2;
+    
+}
+
+.content{
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.content h5{
+    margin-top: 55px;
+    font-size: 1.2rem;
+}
+
+.yes-btn, .no-btn{
+    display: inline-block;
+    background-color: #ffacc5;
+    width: 47px;
+    height: 25px;
+    margin-right: 26px;
+    border-radius: 7px;
+    
+}
+
+.no-btn:hover{
+    background-color: #fb6f92;
+} 
+
+.yes-btn:hover{
+    background-color: #fb6f92;
+}
+
+.no-btn{
+    position: absolute;
+}
