@@ -4,7 +4,7 @@ let card= document.getElementsByClassName('card')[0];
 
 
 function fade(){
-    body.style.backgroundImage="url('assets/love.gif')";
+    body.style.backgroundImage="url('love.gif')";
     cover.style.visibility= 0;
     card.style.opacity= 1;
     cover.style.mouse="auto";
